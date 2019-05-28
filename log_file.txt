@@ -1,0 +1,1 @@
+Apr 06 15:19:27 majordomopi sendEmail[9125]: ERROR => The attachment [photo_1.jpeg] doesn't exist!
