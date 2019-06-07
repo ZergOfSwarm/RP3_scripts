@@ -63,7 +63,7 @@ def remove_clean():
         #        shutil.rmtree(jfile)
 #---------------------мой код-------------------------------
         list_paths = (CLEAN_FILES)
-        print ('Список путей - {}'.format(list_paths))
+        #print ('Список путей - {}'.format(list_paths))
         for path in list_paths:
             print (path)
             for the_file in os.listdir(path): # Смотрим в каждом указанном пути наличие файлов.
