@@ -65,7 +65,7 @@ def remove_clean():
         list_paths = (CLEAN_FILES)
         #print ('Список путей - {}'.format(list_paths))
         for path in list_paths:
-            print (path)
+            #print (path)
             for the_file in os.listdir(path): # Смотрим в каждом указанном пути наличие файлов.
                 #print (the_file)
                 file_path = os.path.join(path, the_file)
