@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-N = 2 # Количество бакапов в которые оставляем.
+N = 5 # Количество бакапов в которые оставляем.
 full_list = []
 selected_list = []
 sorted_list = []
