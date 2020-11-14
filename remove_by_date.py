@@ -24,15 +24,15 @@ def main():
 
 
     files_to_live = selected_list[-N:] # Делаем срез, что бы выделить нужные бакапы!
-    #print ('Список файлов  которые будут оствлены -{}'.format(files_to_live),end='\n\n')
-    files_to_delete = selected_list[:-N] # Делаем срез, что бы вылелить список удаляемых файлов!
+    #print ('Список файлов  которые будут оставлены -{}'.format(files_to_live),end='\n\n')
+    files_to_delete = selected_list[:-N] # Делаем срез, что бы выделить список удаляемых файлов!
     #print()
     #print('Список файлов который удаляем!-{}'.format(files_to_delete),end='\n\n')
 
     for i in files_to_delete: # Перебираем весь список.
         del_file = directory + i
         #print('Удалили -{}'.format(del_file)) # Выписываем все элименты которые бедут удалены.
-        os.remove(del_file) # Удалем!
+        os.remove(del_file) # Удаляем!
 
 
 if (__name__ == "__main__"):
